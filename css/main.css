@@ -1,3 +1,15 @@
-p {
-  color: red;
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow", sans-serif;
+  font-family: "Fraunces", serif;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1280px;
 }
