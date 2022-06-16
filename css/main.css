@@ -1,11 +1,21 @@
+@import url("./header.css");
+
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0;
   padding: 0;
-  font-family: "Barlow", sans-serif;
   font-family: "Fraunces", serif;
+  font-family: "Barlow", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
 }
 
 .container {
