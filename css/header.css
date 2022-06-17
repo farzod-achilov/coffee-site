@@ -25,3 +25,6 @@
 .nav li a {
   color: #83888f;
 }
+.main-header {
+  position: relative;
+}

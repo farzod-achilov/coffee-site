@@ -28,3 +28,65 @@
   color: #fefcf7;
   opacity: 0.8;
 }
+
+.our-collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-collection-img {
+  position: absolute;
+  left: 165px;
+  top: 849px;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+}
+
+.our-collection img {
+  margin: 0 auto;
+  display: flex;
+}
+.our-collection {
+  padding-top: 126px;
+}
+
+.expresso-title,
+.planalto-title,
+.piccolo-title,
+.danche-title {
+  margin: 0 auto;
+  text-align: center;
+  width: 255px;
+  height: 32px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+  margin-top: 71px;
+}
+
+.expresso-subtitle,
+.planalto-subtitle,
+.piccolo-subtitle,
+.danche-subtitle {
+  margin-top: 24px;
+  margin-bottom: 0;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  width: 255px;
+  text-align: center;
+}
+.expresso,
+.danche,
+.piccolo,
+.planalto {
+  width: 25%;
+}
