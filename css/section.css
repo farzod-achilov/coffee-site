@@ -93,7 +93,7 @@
 }
 
 .why-choose-us {
-  position: absolute;
+  position: relative;
   background-color: #2c343e;
   border-radius: 10px;
   width: 1280px;
@@ -188,4 +188,81 @@
   line-height: 26px;
   text-align: center;
   color: #fefcf7;
+}
+
+.last-section-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+
+.last-section-header {
+  padding-top: 200px;
+}
+
+.last-section-line {
+  position: relative;
+  width: 760px;
+  height: 1px;
+  background-color: #fdd6ba;
+}
+
+.oval-1,
+.oval-2,
+.oval-3 {
+  background: #fefcf7;
+  border: 2px solid #0e8784;
+  background-color: #fefcf7;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+}
+.pick-coffee-number,
+.frequency-number,
+.enjoy-number {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+}
+
+.last-section {
+  display: flex;
+  gap: 95px;
+}
+.frequency-title,
+.pick-coffee-title,
+.enjoy-title {
+  width: 255px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+
+.enjoy-subtitle,
+.frequency-subtitle,
+.pick-coffee-subtitle {
+  width: 285px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+
+.last-section-header a {
+  margin-top: 79px;
+}
+
+.nav a:hover {
+  color: #333d4b;
 }
