@@ -3,16 +3,16 @@
   justify-content: center;
   text-align: center;
 }
-.main-header-inner {
+.main-header__inner {
   padding-top: 43px;
   display: flex;
 }
-.nav {
+.main-header__nav {
   text-align: center;
   margin-left: auto;
   display: flex;
 }
-.nav li {
+.main-header__nav li {
   text-transform: uppercase;
   font-style: normal;
   font-family: "Barlow";
@@ -22,10 +22,14 @@
   margin-left: 33px;
 }
 
-.nav li a {
+.main-header__nav li a {
   color: #83888f;
 }
 
 .main-header {
   position: relative;
+}
+
+.main-header__nav a:hover {
+  color: #333d4b;
 }

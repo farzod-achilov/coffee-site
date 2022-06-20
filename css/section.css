@@ -1,11 +1,10 @@
 .header-section {
-  padding: 117px 0;
-  padding-left: 85px;
+  padding: 117px 85px;
   background-color: #a2a2a2;
   border-radius: 10px;
 }
 
-.header-section-title {
+.header-section__title {
   margin: 0;
   color: #fefcf7;
   width: 493px;
@@ -16,7 +15,7 @@
   line-height: 72px;
 }
 
-.header-section-content {
+.header-section__content {
   margin-bottom: 56px;
   width: 445px;
   margin-top: 32px;
@@ -37,7 +36,7 @@
   align-items: center;
 }
 
-.our-collection-img {
+.our-collection__img {
   position: absolute;
   top: 849px;
   opacity: 0.5;
@@ -53,14 +52,10 @@
   padding-top: 126px;
 }
 
-.expresso-title,
-.planalto-title,
-.piccolo-title,
-.danche-title {
+.card__title {
+  text-align: center;
   margin: 0 auto;
   text-align: center;
-  width: 255px;
-  height: 32px;
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -70,63 +65,34 @@
   margin-top: 71px;
 }
 
-.expresso-subtitle,
-.planalto-subtitle,
-.piccolo-subtitle,
-.danche-subtitle {
-  margin-top: 24px;
-  margin-bottom: 0;
+.card__subtitle {
+  margin: 0 auto;
   font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 0;
+  text-align: center;
   line-height: 26px;
   color: #333d4b;
   width: 255px;
-  text-align: center;
 }
-.expresso,
-.danche,
-.piccolo,
-.planalto {
+
+.card {
   width: 25%;
 }
 
-.why-choose-us {
-  position: relative;
-  background-color: #2c343e;
-  border-radius: 10px;
-  width: 1280px;
+.why-choose-us__inner {
+  width: 100%;
   height: 577px;
-}
-
-.how-it-work-boxs {
-  position: absolute;
   margin: 0 auto;
-  top: 1920px;
-  justify-content: center;
-  display: flex;
+  padding-top: 100px;
+  border-radius: 10px;
+  background-color: #2c343e;
 }
 
-.best-quality,
-.exclusive-benefits,
-.free-shipping {
-  width: 350px;
-  height: 382px;
-  background-color: #0e8784;
-  border-radius: 8px;
-}
-
-.best-quality {
-  margin-left: 120px;
-  margin-right: 30px;
-}
-
-.exclusive-benefits {
-  margin-right: 30px;
-}
-
-.why-choose-us-title {
+.why-choose-us__title {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -136,9 +102,9 @@
   color: #fefcf7;
 }
 
-.why-choose-us-subtitle {
-  margin: 0 auto;
+.why-choose-us__subtitle {
   width: 400px;
+  margin: 0 auto;
   font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
@@ -149,38 +115,41 @@
   opacity: 0.8;
 }
 
-.best-quality-img {
-  margin-top: 72px;
-  margin-left: 136px;
+.why-choose-us {
+  position: relative;
 }
 
-.exclusive-benfits-img {
-  margin-top: 72px;
-  margin-left: 135px;
-}
-
-.free-shoping-img {
-  margin-top: 83px;
-  margin-left: 136px;
-}
-
-.best-quality-title,
-.exclusiveb-enefits-title,
-.free-shipping-title {
-  font-family: "Barlow";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  color: #fefcf7;
-}
-
-.free-shipping-subtitle,
-.exclusive-benefits-subtitle,
-.best-quality-subtitle {
+.holder {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: -230px;
   margin: 0 auto;
-  width: 255px;
+}
+
+.holder__inner {
+  max-width: 350px;
+  padding: 48px;
+  padding-top: 72px;
+  background-color: #0e8784;
+  text-align: center;
+  border-radius: 8px;
+  margin: 15px;
+}
+
+.holder__title {
+  margin-top: 56px;
+  margin-bottom: 24px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fefcf7;
+}
+
+.holder__subtitle {
   font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
@@ -190,7 +159,33 @@
   color: #fefcf7;
 }
 
-.last-section-title {
+.line-oval {
+  display: flex;
+  max-width: 730px;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  height: 2px;
+  width: 349px;
+  background-color: #fdd6ba;
+}
+
+.last-section {
+  padding-top: 200px;
+}
+
+.oval {
+  background: #fefcf7;
+  border: 2px solid #0e8784;
+  background-color: #fefcf7;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+}
+
+.last-section__title {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -199,30 +194,7 @@
   color: #83888f;
 }
 
-.last-section-header {
-  padding-top: 200px;
-}
-
-.last-section-line {
-  position: relative;
-  width: 760px;
-  height: 1px;
-  background-color: #fdd6ba;
-}
-
-.oval-1,
-.oval-2,
-.oval-3 {
-  background: #fefcf7;
-  border: 2px solid #0e8784;
-  background-color: #fefcf7;
-  width: 31px;
-  height: 31px;
-  border-radius: 50%;
-}
-.pick-coffee-number,
-.frequency-number,
-.enjoy-number {
+.last-section__number {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -231,13 +203,11 @@
   color: #fdd6ba;
 }
 
-.last-section {
+.last-section__inner {
   display: flex;
-  gap: 95px;
+  gap: 47.5px;
 }
-.frequency-title,
-.pick-coffee-title,
-.enjoy-title {
+.last-section__caption {
   width: 255px;
   font-family: "Fraunces";
   font-style: normal;
@@ -247,9 +217,7 @@
   color: #333d4b;
 }
 
-.enjoy-subtitle,
-.frequency-subtitle,
-.pick-coffee-subtitle {
+.last-section__subtitle {
   width: 285px;
   font-family: "Barlow";
   font-style: normal;
@@ -259,10 +227,6 @@
   color: #333d4b;
 }
 
-.last-section-header a {
+.last-section a {
   margin-top: 79px;
-}
-
-.nav a:hover {
-  color: #333d4b;
 }
