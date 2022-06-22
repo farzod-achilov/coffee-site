@@ -16,6 +16,11 @@ body {
   font-family: "Barlow", sans-serif;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
@@ -55,4 +60,16 @@ span {
   margin: 0 auto;
   padding: 0 15px;
   width: 1110.82px;
+}
+
+.next-page {
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 15px;
+  width: 100%;
+  border: 1px solid #0e8784;
+  color: #fefcf7;
+  background-color: #0e8784;
 }

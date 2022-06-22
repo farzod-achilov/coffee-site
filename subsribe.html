@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&family=Fraunces:opsz,wght@9..144,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav>
+        <div class="container">
+          <div class="main-header__inner">
+            <h1>
+              <span class="visually-hidden">Coffee</span>
+              <a href="/"
+                ><img
+                  class="logo"
+                  src="./img/logo.svg"
+                  width="236px"
+                  height="26px"
+                  alt="logo"
+                />
+              </a>
+            </h1>
+            <ul class="main-header__nav">
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#about-us">ABOUT US</a></li>
+              <li><a href="#crete-your-plan">CRETE YOUR PLAN</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container">
+          <div
+            class="header-section header-section--bg-subsribe header-section-wrapper"
+          >
+            <h2 class="header-section__title">Create a plan</h2>
+            <p class="header-section__content">
+              Build a subscription plan that best fits your needs. We offer an
+              assortment of the best artisan coffees from around the globe
+              delivered fresh to your door.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="last-section last-section-bg">
+            <div class="line-oval line-oval--subscribe">
+              <span class="oval oval--subscribe"></span>
+              <span class="line line--subscribe"></span>
+              <span class="oval oval--subscribe"></span>
+              <span class="line line--subscribe"></span>
+              <span class="oval oval--subscribe"></span>
+            </div>
+            <div class="last-section__inner">
+              <div class="last-section__holder">
+                <span class="last-section__number">01</span>
+                <h2 class="last-section__caption last-section__caption--color">
+                  Pick your coffee
+                </h2>
+                <p class="last-section__subtitle last-section__subtitle--color">
+                  Select from our evolving range of artisan coffees. Our beans
+                  are ethically sourced and we pay fair prices for them. There
+                  are new coffees in all profiles every month for you to try
+                  out.
+                </p>
+              </div>
+              <div class="last-section__holder">
+                <span class="last-section__number">02</span>
+                <h2 class="last-section__caption last-section__caption--color">
+                  Choose the frequency
+                </h2>
+                <p class="last-section__subtitle last-section__subtitle--color">
+                  Customize your order frequency, quantity, even your roast
+                  style and grind type. Pause, skip or cancel your subscription
+                  with no commitment through our online portal.
+                </p>
+              </div>
+              <div class="last-section__holder">
+                <span class="last-section__number">03</span>
+                <h2 class="last-section__caption last-section__caption--color">
+                  Receive and enjoy!
+                </h2>
+                <p class="last-section__subtitle last-section__subtitle--color">
+                  We ship your package within 48 hours, freshly roasted. Sit
+                  back and enjoy award-winning world-class coffees curated to
+                  provide a distinct tasting experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="choose-coffee">
+            <div class="choose-coffee__sticky">
+              <ul>
+                <li>
+                  <a href="#preferences">Preferences</a>
+                </li>
+                <span class="choose-coffe__line"></span>
+                <li>
+                  <a href="#bean-type">Bean Type</a>
+                </li>
+                <span class="choose-coffe__line"></span>
+                <li>
+                  <a href="#quantity">Quantity</a>
+                </li>
+                <span class="choose-coffe__line"></span>
+                <li>
+                  <a href="#grind-option">Grind Option</a>
+                </li>
+                <span class="choose-coffe__line"></span>
+                <li>
+                  <a href="#deliveries">Deliveries</a>
+                </li>
+              </ul>
+            </div>
+            <div class="choose-coffee__form">
+              <form action="/" method="post">
+                <h2>How do you drink your coffee?</h2>
+                <div class="choose-coffee__fist">
+                  <input
+                    id="type"
+                    name="coffee"
+                    class="visually-hidden"
+                    type="checkbox"
+                    value="type"
+                  />
+                  <label for="type" class="choose-coffee__label">
+                    <h3>Capsule</h3>
+                    <p>Compatible with Nespresso systems and similar brewers</p>
+                  </label>
+                  <input
+                    id="filte"
+                    name="coffee"
+                    class="visually-hidden"
+                    type="checkbox"
+                    value="type"
+                  />
+                  <label for="filte" class="choose-coffee__label">
+                    <h3>Filter</h3>
+                    <p>
+                      For pour over or drip methods like Aeropress, Chemex, and
+                      V60
+                    </p>
+                  </label>
+                  <input
+                    id="espresso"
+                    name="coffee"
+                    class="visually-hidden"
+                    type="checkbox"
+                    value="type"
+                  />
+                  <label for="espresso" class="choose-coffee__label">
+                    <h3>Espresso</h3>
+                    <p>
+                      Dense and finely ground beans for an intense, flavorful
+                      experience
+                    </p>
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
