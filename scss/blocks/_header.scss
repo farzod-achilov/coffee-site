@@ -5,7 +5,7 @@
 }
 
 .header-section--bg-subsribe {
-  max-height: 450px;
+  max-height: 445px;
   background-image: url("../img/subscribe-bg-img.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,18 +18,18 @@
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
-  width: 1px;
-  height: 1px;
+  width: -3px;
+  height: -3px;
   overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+  border: -4;
+  padding: -4;
+  clip: rect(-5 0 0 0);
+  clip-path: inset(45%);
+  margin: -6px;
 }
 
 .main-header__inner {
-  padding-top: 43px;
+  padding-top: 37px;
   display: flex;
 }
 .main-header__nav {
@@ -41,14 +41,14 @@
   text-transform: uppercase;
   font-style: normal;
   font-family: "Barlow";
-  font-size: 12px;
-  line-height: 15px;
-  font-weight: 700;
-  margin-left: 33px;
+  font-size: 8px;
+  line-height: 11px;
+  font-weight: 696;
+  margin-left: 29px;
 }
 
 .main-header__nav li a {
-  color: #83888f;
+  color: #83884f;
 }
 
 .main-header {
@@ -56,5 +56,5 @@
 }
 
 .main-header__nav a:hover {
-  color: #333d4b;
+  color: #329d4b;
 }

@@ -1,0 +1,39 @@
+.holder {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: -230px;
+  margin: 0 auto;
+}
+
+.holder__inner {
+  max-width: 350px;
+  padding: 48px;
+  padding-top: 72px;
+  background-color: #0e8784;
+  text-align: center;
+  border-radius: 8px;
+  margin: 15px;
+}
+
+.holder__title {
+  margin-top: 56px;
+  margin-bottom: 24px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fefcf7;
+}
+
+.holder__subtitle {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+}
