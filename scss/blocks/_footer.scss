@@ -4,40 +4,40 @@
   justify-content: center;
   align-items: center;
   display: flex;
-}
 
-.footer__nav {
-  margin-left: 103px;
-  display: flex;
-  text-align: center;
-}
+  &__nav {
+    margin-left: 103px;
+    display: flex;
+    text-align: center;
 
-.footer__content {
-  margin-left: auto;
-}
+    li {
+      text-transform: uppercase;
+      font-style: normal;
+      font-family: "Barlow";
+      font-size: 12px;
+      line-height: 15px;
+      font-weight: 700;
+      margin-left: 33px;
 
-.footer__content img {
-  margin-left: 24px;
-}
+      a {
+        color: #83888f;
 
-.footer__content img:hover {
-  background-color: #fdd6ba;
-}
+        &:hover {
+          color: #fefcf7;
+        }
+      }
+    }
+  }
 
-.footer__nav li a {
-  color: #83888f;
-}
+  &__content {
+    margin-left: auto;
 
-.footer__nav li {
-  text-transform: uppercase;
-  font-style: normal;
-  font-family: "Barlow";
-  font-size: 12px;
-  line-height: 15px;
-  font-weight: 700;
-  margin-left: 33px;
-}
+    img {
+      margin-left: 24px;
 
-.footer__nav a:hover {
-  color: #fefcf7;
+      &:hover {
+        background-color: #fdd6ba;
+      }
+    }
+  }
 }

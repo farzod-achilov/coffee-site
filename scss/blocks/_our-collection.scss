@@ -4,20 +4,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.our-collection__img {
-  position: absolute;
-  top: 849px;
-  opacity: 0.5;
-  display: flex;
-  margin: 0 auto;
-}
-
-.our-collection img {
-  margin: 0 auto;
-  display: flex;
-}
-.our-collection {
   padding-top: 126px;
+
+  &__img {
+    position: absolute;
+    top: 849px;
+    opacity: 0.5;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  img {
+    margin: 0 auto;
+    display: flex;
+  }
 }

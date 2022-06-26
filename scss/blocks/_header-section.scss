@@ -2,28 +2,43 @@
   padding: 117px 85px;
   background-color: #a2a2a2;
   border-radius: 10px;
-}
 
-.header-section__title {
-  margin: 0;
-  color: #fefcf7;
-  width: 493px;
-  font-family: "Fraunces";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 72px;
-}
+  &__title {
+    margin: 0;
+    color: #fefcf7;
+    width: 493px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+  }
 
-.header-section__content {
-  margin-bottom: 56px;
-  width: 445px;
-  margin-top: 32px;
-  font-family: "Barlow";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  color: #fefcf7;
-  opacity: 0.8;
+  &__content {
+    margin-bottom: 56px;
+    width: 445px;
+    margin-top: 32px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    opacity: 0.8;
+  }
+
+  &--bg-subsribe {
+    max-height: 445px;
+    background-image: url("../img/subscribe-bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &--bg-home {
+    background-image: url("../img/bg-img-home.png");
+  }
+
+  &-wrapper {
+    margin-bottom: 77px;
+  }
 }

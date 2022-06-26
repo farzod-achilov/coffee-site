@@ -1,60 +1,42 @@
 .logo {
   display: flex;
   justify-content: center;
-  text-align: center;
-}
-
-.header-section--bg-subsribe {
-  max-height: 445px;
-  background-image: url("../img/subscribe-bg-img.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.header-section--bg-home {
-  background-image: url("../img/bg-img-home.png");
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: -3px;
-  height: -3px;
-  overflow: hidden;
-  border: -4;
-  padding: -4;
-  clip: rect(-5 0 0 0);
-  clip-path: inset(45%);
-  margin: -6px;
-}
-
-.main-header__inner {
-  padding-top: 37px;
-  display: flex;
-}
-.main-header__nav {
-  text-align: center;
-  margin-left: auto;
-  display: flex;
-}
-.main-header__nav li {
-  text-transform: uppercase;
-  font-style: normal;
-  font-family: "Barlow";
-  font-size: 8px;
-  line-height: 11px;
-  font-weight: 696;
-  margin-left: 29px;
-}
-
-.main-header__nav li a {
-  color: #83884f;
+  align-items: center;
 }
 
 .main-header {
   position: relative;
-}
 
-.main-header__nav a:hover {
-  color: #329d4b;
+  &__inner {
+    padding-top: 37px;
+    display: flex;
+  }
+
+  &__nav {
+    text-align: center;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      font-style: normal;
+      font-family: "Barlow";
+      font-size: 12px;
+      line-height: 15px;
+      font-weight: 696;
+      margin-left: 29px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        color: #83884f;
+
+        &:hover {
+          color: #329d4b;
+        }
+      }
+    }
+  }
 }
