@@ -12,8 +12,15 @@
     }
   }
 
-  &__sticky {
+  &__wrapper {
+    padding-top: 50px;
     position: sticky;
+  }
+
+  &__sticky {
+    position: relative;
+    top: 0;
+    height: 500px;
 
     ul {
       li {
