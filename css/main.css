@@ -6,9 +6,9 @@
 
 .main-header {
   position: relative;
+  padding-top: 37px;
 }
 .main-header__inner {
-  padding-top: 37px;
   display: flex;
 }
 .main-header__nav {
@@ -60,6 +60,10 @@ ul {
 a {
   display: inline-block;
   text-decoration: none;
+}
+
+h1 {
+  margin: 0;
 }
 
 li {
@@ -408,12 +412,11 @@ span {
 }
 .our-collection img {
   margin: 0 auto;
-  display: flex;
 }
 
 .line-oval {
   display: flex;
-  max-width: 730px;
+  max-width: 820px;
   justify-content: center;
   align-items: center;
 }
@@ -443,10 +446,10 @@ span {
   background-color: #fdd6ba;
 }
 
-.last-section {
+.how-it-works {
   padding-top: 200px;
 }
-.last-section__title {
+.how-it-works__title {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -454,7 +457,7 @@ span {
   line-height: 32px;
   color: #83888f;
 }
-.last-section__number {
+.how-it-works__number {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -462,10 +465,10 @@ span {
   line-height: 72px;
   color: #fdd6ba;
 }
-.last-section__inner {
+.how-it-works__inner {
   display: flex;
 }
-.last-section__caption {
+.how-it-works__caption {
   width: 255px;
   font-family: "Fraunces";
   font-style: normal;
@@ -474,10 +477,10 @@ span {
   line-height: 36px;
   color: #333d4b;
 }
-.last-section__caption--color {
+.how-it-works__caption--color {
   color: #fefcf7;
 }
-.last-section__subtitle {
+.how-it-works__subtitle {
   width: 285px;
   font-family: "Barlow";
   font-style: normal;
@@ -487,13 +490,13 @@ span {
   margin-right: 95px;
   color: #333d4b;
 }
-.last-section__subtitle--color {
+.how-it-works__subtitle--color {
   color: #fefcf7;
 }
-.last-section a {
+.how-it-works a {
   margin-top: 79px;
 }
-.last-section--bg {
+.how-it-works-bg {
   padding: 107px 85px;
   background-color: #2c343e;
   border-radius: 10px;
