@@ -50,16 +50,3 @@ span {
     background-color: #66d2cf;
   }
 }
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: -3px;
-  height: -3px;
-  overflow: hidden;
-  border: -4;
-  padding: -4;
-  clip: rect(-5 0 0 0);
-  clip-path: inset(45%);
-  margin: -6px;
-}
