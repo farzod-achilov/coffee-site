@@ -12,6 +12,11 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 72px;
+
+    &--size {
+      font-size: 40px;
+      line-height: 48px;
+    }
   }
 
   &__content {
@@ -36,9 +41,19 @@
 
   &--bg-home {
     background-image: url("../img/bg-img-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 445px;
   }
 
   &-wrapper {
     margin-bottom: 77px;
+  }
+
+  &--bg-about-us {
+    background-image: url("../../img/about-us-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 450px;
   }
 }

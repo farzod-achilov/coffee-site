@@ -1,0 +1,31 @@
+.commitment {
+  padding-top: 68px;
+}
+.commitment__box {
+  display: flex;
+}
+.commitment__content {
+  margin-left: auto;
+  padding-top: 90px;
+  max-width: 540px;
+  max-height: 340px;
+}
+.commitment__content h2 {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+}
+.commitment__content p {
+  color: #333d4b;
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+}/*# sourceMappingURL=commitment.css.map */

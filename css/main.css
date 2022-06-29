@@ -30,10 +30,10 @@
   align-items: center;
 }
 .main-header__nav li a {
-  color: #83884f;
+  color: #83888f;
 }
 .main-header__nav li a:hover {
-  color: #329d4b;
+  color: #333d4b;
 }
 
 * {
@@ -92,16 +92,16 @@ span {
 
 .visually-hidden {
   position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
   white-space: nowrap;
-  width: -3px;
-  height: -3px;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
   overflow: hidden;
-  border: -4;
-  padding: -4;
-  clip: rect(-5 0 0 0);
-  -webkit-clip-path: inset(45%);
-          clip-path: inset(45%);
-  margin: -6px;
 }
 
 .card {
@@ -146,8 +146,11 @@ span {
   color: #83888f;
 }
 .choose-coffee__sticky {
+  display: flex;
+  height: 500px;
   position: -webkit-sticky;
   position: sticky;
+  top: 30px;
 }
 .choose-coffee__sticky ul li:nth-child(1):before {
   content: "01";
@@ -244,7 +247,7 @@ span {
   margin: 0;
 }
 .choose-coffee__label:hover {
-  border-color: #fdd6ba;
+  background-color: #fdd6ba;
 }
 .choose-coffee__content {
   background-color: #2c343e;
@@ -370,6 +373,10 @@ span {
   font-size: 72px;
   line-height: 72px;
 }
+.header-section__title--size {
+  font-size: 40px;
+  line-height: 48px;
+}
 .header-section__content {
   margin-bottom: 56px;
   width: 445px;
@@ -390,9 +397,18 @@ span {
 }
 .header-section--bg-home {
   background-image: url("../img/bg-img-home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 445px;
 }
 .header-section-wrapper {
   margin-bottom: 77px;
+}
+.header-section--bg-about-us {
+  background-image: url("../../img/about-us-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 450px;
 }
 
 .our-collection {
@@ -541,8 +557,40 @@ span {
   max-width: 1280px;
 }
 
-.our-collection-container {
+.mini-container {
   margin: 0 auto;
   padding: 0 15px;
   max-width: 1110.82px;
+}
+
+.commitment {
+  padding-top: 68px;
+}
+.commitment__box {
+  display: flex;
+}
+.commitment__content {
+  margin-left: auto;
+  padding-top: 90px;
+  max-width: 540px;
+  max-height: 340px;
+}
+.commitment__content h2 {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+}
+.commitment__content p {
+  color: #333d4b;
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
