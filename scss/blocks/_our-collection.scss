@@ -1,20 +1,29 @@
 .our-collection {
+  position: relative;
   padding-top: 36px;
   padding-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 126px;
+  flex-wrap: wrap;
 
-  &__img {
+  &__header {
+    top: -50px;
+    z-index: -1;
     position: absolute;
-    top: 849px;
-    opacity: 0.5;
-    display: flex;
-    margin: 0 auto;
-  }
-
-  img {
-    margin: 0 auto;
+    height: 192px;
+    width: 1111px;
+    text-align: center;
+    color: #83888f;
+    font-size: 150px;
+    line-height: 72px;
+    background: linear-gradient(
+      180deg,
+      rgba(254, 252, 247, 0.0001) 0%,
+      #fefcf7 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
