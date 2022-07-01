@@ -37,6 +37,10 @@
       font-size: 40px;
       line-height: 48px;
       color: #333d4b;
+
+      &--color {
+        color: #fefcf7;
+      }
     }
 
     .commitment__subtitle {
@@ -47,19 +51,15 @@
       font-family: "Barlow";
       font-style: normal;
       font-weight: 400;
+
+      &--color {
+        color: #fefcf7;
+      }
     }
   }
 
   &__img--position {
     position: absolute;
     top: -76px;
-  }
-
-  &__caption--color {
-    color: #fefcf7;
-  }
-
-  &__subtitle--color {
-    color: #fefcf7;
   }
 }

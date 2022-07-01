@@ -36,6 +36,9 @@
   line-height: 48px;
   color: #333d4b;
 }
+.commitment__content .commitment__caption--color {
+  color: #fefcf7;
+}
 .commitment__content .commitment__subtitle {
   color: #333d4b;
   margin: 0;
@@ -45,13 +48,10 @@
   font-style: normal;
   font-weight: 400;
 }
+.commitment__content .commitment__subtitle--color {
+  color: #fefcf7;
+}
 .commitment__img--position {
   position: absolute;
   top: -76px;
-}
-.commitment__caption--color {
-  color: #fefcf7;
-}
-.commitment__subtitle--color {
-  color: #fefcf7;
 }/*# sourceMappingURL=commitment.css.map */
