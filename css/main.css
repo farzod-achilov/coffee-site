@@ -12,6 +12,9 @@
   display: flex;
 }
 .main-header__nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   text-align: center;
   margin-left: auto;
   display: flex;
