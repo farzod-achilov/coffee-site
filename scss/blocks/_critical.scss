@@ -12,6 +12,10 @@ body {
   font-family: "Barlow", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   margin: 0;
   padding: 0;

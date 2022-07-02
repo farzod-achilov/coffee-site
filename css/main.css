@@ -55,6 +55,10 @@ body {
   font-family: "Barlow", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -423,19 +427,25 @@ span {
   padding-top: 126px;
   flex-wrap: wrap;
 }
-.our-collection__header {
-  top: -50px;
+.our-collection__liniar-gradient {
   z-index: -1;
+  top: 60px;
   position: absolute;
-  height: 192px;
+  width: 1111px;
+  height: 196px;
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #fefcf7 100%);
+}
+.our-collection__header {
+  margin: 0 auto;
+  top: 0;
+  z-index: -10;
+  position: absolute;
+  margin: 0;
   width: 1111px;
   text-align: center;
   color: #83888f;
   font-size: 150px;
   line-height: 72px;
-  background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #fefcf7 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .line-oval {

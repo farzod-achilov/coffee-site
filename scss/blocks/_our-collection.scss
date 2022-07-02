@@ -8,22 +8,29 @@
   padding-top: 126px;
   flex-wrap: wrap;
 
-  &__header {
-    top: -50px;
+  &__liniar-gradient {
     z-index: -1;
+    top: 60px;
     position: absolute;
-    height: 192px;
     width: 1111px;
-    text-align: center;
-    color: #83888f;
-    font-size: 150px;
-    line-height: 72px;
+    height: 196px;
     background: linear-gradient(
       180deg,
       rgba(254, 252, 247, 0.0001) 0%,
       #fefcf7 100%
     );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  }
+
+  &__header {
+    margin: 0 auto;
+    top: 0;
+    z-index: -10;
+    position: absolute;
+    margin: 0;
+    width: 1111px;
+    text-align: center;
+    color: #83888f;
+    font-size: 150px;
+    line-height: 72px;
   }
 }
