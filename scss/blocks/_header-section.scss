@@ -5,7 +5,7 @@
 
   &__title {
     margin: 0;
-    color: #fefcf7;
+    color: $bg-color;
     width: 493px;
     font-family: "Fraunces";
     font-style: normal;
@@ -28,7 +28,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #fefcf7;
+    color: $bg-color;
     opacity: 0.8;
   }
 

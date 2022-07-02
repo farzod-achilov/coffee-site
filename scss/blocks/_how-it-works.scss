@@ -9,7 +9,7 @@
 
     .oval--subscribe {
       background-color: transparent;
-      border-color: #0e8784;
+      border-color: $color-dark-cyan;
     }
 
     .line--subscribe {
@@ -19,9 +19,9 @@
 }
 
 .oval {
-  background: #fefcf7;
-  border: 2px solid #0e8784;
-  background-color: #fefcf7;
+  background: $bg-color;
+  border: 2px solid $color-dark-cyan;
+  background-color: $bg-color;
   width: 31px;
   height: 31px;
   border-radius: 50%;
@@ -30,7 +30,7 @@
 .line {
   height: 1px;
   width: 349px;
-  background-color: #fdd6ba;
+  background-color: $color-pale-orange;
 }
 
 .how-it-works {
@@ -42,7 +42,7 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
-    color: #83888f;
+    color: $color-gray;
   }
 
   &__number {
@@ -51,7 +51,7 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 72px;
-    color: #fdd6ba;
+    color: $color-pale-orange;
   }
 
   &__inner {
@@ -65,10 +65,10 @@
     font-weight: 900;
     font-size: 32px;
     line-height: 36px;
-    color: #333d4b;
+    color: $color-dark-grey-blue;
 
     &--color {
-      color: #fefcf7;
+      color: $bg-color;
     }
   }
 
@@ -80,10 +80,10 @@
     font-size: 16px;
     line-height: 26px;
     margin-right: 95px;
-    color: #333d4b;
+    color: $color-dark-grey-blue;
 
     &--color {
-      color: #fefcf7;
+      color: $bg-color;
     }
   }
 

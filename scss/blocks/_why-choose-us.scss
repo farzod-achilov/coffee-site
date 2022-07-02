@@ -17,7 +17,7 @@
     font-size: 40px;
     line-height: 48px;
     text-align: center;
-    color: #fefcf7;
+    color: $bg-color;
   }
 
   &__subtitle {
@@ -29,7 +29,7 @@
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    color: #fefcf7;
+    color: $bg-color;
     opacity: 0.8;
   }
 }

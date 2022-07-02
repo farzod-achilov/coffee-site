@@ -34,13 +34,13 @@
   font-weight: 900;
   font-size: 40px;
   line-height: 48px;
-  color: #333d4b;
+  color: $color-dark-grey-blue;
 }
 .commitment__content .commitment__caption--color {
-  color: #fefcf7;
+  color: $bg-color;
 }
 .commitment__content .commitment__subtitle {
-  color: #333d4b;
+  color: $color-dark-grey-blue;
   margin: 0;
   font-size: 16px;
   line-height: 26px;
@@ -49,9 +49,9 @@
   font-weight: 400;
 }
 .commitment__content .commitment__subtitle--color {
-  color: #fefcf7;
+  color: $bg-color;
 }
 .commitment__img--position {
   position: absolute;
   top: -76px;
-}/*# sourceMappingURL=commitment.css.map */
+} /*# sourceMappingURL=commitment.css.map */

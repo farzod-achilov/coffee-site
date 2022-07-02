@@ -17,7 +17,7 @@
     background: linear-gradient(
       180deg,
       rgba(254, 252, 247, 0.0001) 0%,
-      #fefcf7 100%
+      $bg-color 100%
     );
   }
 
@@ -29,7 +29,7 @@
     margin: 0;
     width: 1111px;
     text-align: center;
-    color: #83888f;
+    color: $color-gray;
     font-size: 150px;
     line-height: 72px;
   }

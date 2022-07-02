@@ -10,7 +10,7 @@
     max-width: 350px;
     padding: 48px;
     padding-top: 72px;
-    background-color: #0e8784;
+    background-color: $color-dark-cyan;
     text-align: center;
     border-radius: 8px;
     margin: 15px;
@@ -24,7 +24,7 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
-    color: #fefcf7;
+    color: $bg-color;
   }
 
   &__subtitle {
@@ -34,6 +34,6 @@
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    color: #fefcf7;
+    color: $bg-color;
   }
 }

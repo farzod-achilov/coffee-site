@@ -36,15 +36,15 @@
       font-weight: 900;
       font-size: 40px;
       line-height: 48px;
-      color: #333d4b;
+      color: $color-dark-grey-blue;
 
       &--color {
-        color: #fefcf7;
+        color: $bg-color;
       }
     }
 
     .commitment__subtitle {
-      color: #333d4b;
+      color: $color-dark-grey-blue;
       margin: 0;
       font-size: 16px;
       line-height: 26px;
@@ -53,7 +53,7 @@
       font-weight: 400;
 
       &--color {
-        color: #fefcf7;
+        color: $bg-color;
       }
     }
   }

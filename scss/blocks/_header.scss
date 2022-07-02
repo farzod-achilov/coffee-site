@@ -32,10 +32,10 @@
       align-items: center;
 
       a {
-        color: #83888f;
+        color: $color-gray;
 
         &:hover {
-          color: #333d4b;
+          color: $color-dark-grey-blue;
         }
       }
     }
