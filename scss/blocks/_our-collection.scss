@@ -1,36 +1,28 @@
 .our-collection {
   position: relative;
   padding-top: 36px;
-  padding-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 126px;
   flex-wrap: wrap;
 
-  &__liniar-gradient {
-    z-index: -1;
-    top: 60px;
-    position: absolute;
-    width: 1111px;
-    height: 196px;
-    background: linear-gradient(
-      180deg,
-      rgba(254, 252, 247, 0.0001) 0%,
-      $bg-color 100%
-    );
+  @media (max-width: $desktop) {
+    flex-direction: column;
   }
 
   &__header {
     margin: 0 auto;
-    top: 0;
-    z-index: -10;
-    position: absolute;
     margin: 0;
-    width: 1111px;
     text-align: center;
     color: $color-gray;
     font-size: 150px;
-    line-height: 72px;
+    background-image: linear-gradient(
+      180deg,
+      rgba($color: black, $alpha: 0.3),
+      rgba($color: black, $alpha: 0.0001)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }

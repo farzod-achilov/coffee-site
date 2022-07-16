@@ -3,15 +3,38 @@
   background-color: #a2a2a2;
   border-radius: 10px;
 
+  @media (max-width: $desktop) {
+    padding: 104px 54px;
+
+    * {
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: $tablet) {
+    text-align: center;
+  }
+
   &__title {
     margin: 0;
     color: $bg-color;
-    width: 493px;
     font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 72px;
+
+    @media (max-width: $desktop) {
+      padding-right: 69px;
+      font-size: 48px;
+      line-height: 48px;
+    }
+
+    @media (max-width: $tablet) {
+      padding-right: 69px;
+      font-size: 40px;
+      line-height: 40px;
+    }
 
     &--size {
       font-size: 40px;
@@ -21,7 +44,6 @@
 
   &__content {
     margin-bottom: 56px;
-    width: 445px;
     margin-top: 32px;
     font-family: "Barlow";
     font-style: normal;
@@ -30,10 +52,16 @@
     line-height: 26px;
     color: $bg-color;
     opacity: 0.8;
+
+    @media (max-width: $desktop) {
+      margin-top: 24px;
+      margin-bottom: 40px;
+      size: 15px;
+      line-height: 25px;
+    }
   }
 
   &--bg-subsribe {
-    max-height: 445px;
     background-image: url("../img/subscribe-bg-img.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,6 +71,10 @@
     background-image: url("../img/bg-img-home.png");
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media (max-width: $desktop) {
+      background-position: center;
+    }
   }
 
   &-wrapper {
@@ -54,5 +86,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 450px;
+  }
+}
+
+.header-section__wrapper {
+  @media (min-width: $tablet) {
+    max-width: 500px;
   }
 }

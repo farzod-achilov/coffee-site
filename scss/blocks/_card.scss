@@ -1,17 +1,43 @@
 .card {
   width: 25%;
+  margin: 0 2%;
+
+  & > img {
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+  }
+
+  @media (max-width: $desktop) {
+    width: 100%;
+    display: flex;
+  }
+
+  @media (max-width: $tablet) {
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 8px;
+  }
 
   &__title {
-    text-align: center;
     margin: 0 auto;
-    text-align: center;
+
     font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
     color: $color-dark-grey-blue;
-    margin-top: 71px;
+
+    @media (max-width: $desktop) {
+      margin-top: 30px;
+      text-align: start;
+    }
+
+    @media (max-width: $tablet) {
+      text-align: center;
+    }
   }
   &__subtitle {
     margin: 0 auto;
@@ -21,9 +47,21 @@
     font-size: 16px;
     margin-top: 24px;
     margin-bottom: 0;
-    text-align: center;
     line-height: 26px;
     color: $color-dark-grey-blue;
-    width: 255px;
+
+    @media (max-width: $desktop) {
+      width: 282px;
+      text-align: start;
+    }
+  }
+}
+
+.card__content {
+  margin-left: 35px;
+  @media (min-width: $desktop) {
+    text-align: center;
+    margin-top: 71px;
+    margin-left: 0;
   }
 }

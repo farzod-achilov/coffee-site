@@ -1,11 +1,13 @@
 .container {
+  max-width: $desktop;
   padding: 0 15px;
   margin: 0 auto;
-  max-width: 1280px;
-}
 
-.mini-container {
-  margin: 0 auto;
-  padding: 0 15px;
-  max-width: 1110.82px;
+  @media (max-width: $tablet) {
+    max-width: $tablet;
+  }
+
+  @media (max-width: $tablet) {
+    max-width: 100%;
+  }
 }
