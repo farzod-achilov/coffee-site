@@ -335,6 +335,11 @@ span {
   justify-content: end;
 }
 
+.choose-coffee__header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer {
   padding: 45px 85px;
   background-color: #2c343e;
