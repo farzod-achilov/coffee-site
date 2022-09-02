@@ -3,6 +3,7 @@
   max-width: 665px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 82px;
 
   @media (max-width: $tablet) {
     display: none;
@@ -26,8 +27,8 @@
   background: $bg-color;
   border: 2px solid $color-dark-cyan;
   background-color: $bg-color;
-  width: 31px;
-  height: 31px;
+  display: inline-block;
+  padding: 14px;
   border-radius: 50%;
 }
 

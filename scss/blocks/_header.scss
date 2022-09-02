@@ -21,11 +21,7 @@
     align-items: center;
 
     li {
-      font-style: normal;
-      font-family: "Barlow";
-      font-size: 12px;
-      line-height: 15px;
-      font-weight: 696;
+      @include textContent(navBar);
       margin-left: 29px;
       display: flex;
       justify-content: center;

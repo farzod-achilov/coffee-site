@@ -15,7 +15,7 @@
     text-align: center;
   }
 
-  &__title {
+  .header-section__title {
     margin: 0;
     color: $bg-color;
     font-family: "Fraunces";
@@ -36,7 +36,7 @@
       line-height: 40px;
     }
 
-    &--size {
+    .header-section--size {
       font-size: 40px;
       line-height: 48px;
     }

@@ -22,11 +22,16 @@
   align-items: center;
 }
 .main-header__nav li {
-  font-style: normal;
+  margin: 0;
+  padding: 0;
   font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
   font-size: 12px;
   line-height: 15px;
-  font-weight: 696;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
   margin-left: 29px;
   display: flex;
   justify-content: center;
@@ -112,8 +117,8 @@ span {
 }
 
 .card {
-  width: 25%;
-  margin: 0 2%;
+  width: 23%;
+  margin: 0 10px;
 }
 .card > img {
   width: 250px;
@@ -504,7 +509,7 @@ span {
     text-align: center;
   }
 }
-.header-section__title {
+.header-section .header-section__title {
   margin: 0;
   color: #fefcf7;
   font-family: "Fraunces";
@@ -514,20 +519,20 @@ span {
   line-height: 72px;
 }
 @media (max-width: 1200px) {
-  .header-section__title {
+  .header-section .header-section__title {
     padding-right: 69px;
     font-size: 48px;
     line-height: 48px;
   }
 }
 @media (max-width: 768px) {
-  .header-section__title {
+  .header-section .header-section__title {
     padding-right: 69px;
     font-size: 40px;
     line-height: 40px;
   }
 }
-.header-section__title--size {
+.header-section .header-section__title .header-section--size {
   font-size: 40px;
   line-height: 48px;
 }
@@ -611,6 +616,7 @@ span {
   max-width: 665px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 82px;
 }
 @media (max-width: 768px) {
   .line-oval {
@@ -632,8 +638,8 @@ span {
   background: #fefcf7;
   border: 2px solid #0e8784;
   background-color: #fefcf7;
-  width: 31px;
-  height: 31px;
+  display: inline-block;
+  padding: 14px;
   border-radius: 50%;
 }
 
